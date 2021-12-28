@@ -1,0 +1,23 @@
+.prevBtn{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.nextBtn{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.prevBtn i, .nextBtn i{
+    font-size: 2rem;
+}
